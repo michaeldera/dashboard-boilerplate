@@ -1,6 +1,6 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import { Dashboard } from './views';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {Dashboard} from './views';
 
 export const App = () => {
   return (
@@ -11,5 +11,3 @@ export const App = () => {
     </Router>
   );
 }
-
-export default App;
